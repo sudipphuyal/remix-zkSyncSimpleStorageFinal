@@ -17,6 +17,22 @@ contract SimpleStorage{
 
 
 uint256 public favouriteNumber; //0
+// uint256[] listofFavNumbers; // [0,..]
+struct Person {
+    uint256 favnumber ;
+    string name;
+
+}
+// Person public Pat = Person(7,"Pat");
+// Person public mariah = Person(44432,"Mariah");
+// Person public mariaha = Person(44432,"Mariaha");
+
+Person[] public listofPeople;//[]
+
+
+
+
+
 
 function store(uint _favouriteNumber) public {
     favouriteNumber = _favouriteNumber;

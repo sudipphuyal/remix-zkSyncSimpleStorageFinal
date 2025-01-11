@@ -19,6 +19,30 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "listofPeople",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "favnumber",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "retrive",
 				"outputs": [
@@ -86,11 +110,11 @@
 	},
 	"sources": {
 		"SimpleStorage.sol": {
-			"keccak256": "0x05982c00c64efc8a575f8100b024ef80f24e03650570f750bc0ba2e581a01047",
+			"keccak256": "0xf737154a3ad61ee7b30c928d478bf6565da427b7a21e5ba90562c32e66db0296",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://22fffcddfe0cce9d9fdd16f6a0a28df62e49b18c89dc3f87175a0317fb1fb40d",
-				"dweb:/ipfs/QmQ7cntBehKtjz6BSzqMKe7v3EJo9MYFXJZSabSrFp1uJH"
+				"bzz-raw://f9680e7ed60e0caaf803481c7ed630cac4cb25acb9a7ffa5f5fc343359e410eb",
+				"dweb:/ipfs/QmPJvbkJmJWR1QWQuv3sV3k3sh5vfPEPG8KjXzQDFA6nhu"
 			]
 		}
 	},
