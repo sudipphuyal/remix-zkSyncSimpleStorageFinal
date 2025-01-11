@@ -27,7 +27,12 @@ struct Person {
 // Person public mariah = Person(44432,"Mariah");
 // Person public mariaha = Person(44432,"Mariaha");
 
+//dynamic array
 Person[] public listofPeople;//[]
+
+
+
+
 
 
 
@@ -50,6 +55,12 @@ function retrive2() public pure  returns(uint256){
     return 7;
 
 
+}
+
+
+
+function addPerson(string memory _name, uint256 _favnumber) public {
+        listofPeople.push(Person(_favnumber, _name));
 }
 
 

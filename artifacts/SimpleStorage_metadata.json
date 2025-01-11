@@ -6,6 +6,24 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_favnumber",
+						"type": "uint256"
+					}
+				],
+				"name": "addPerson",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "favouriteNumber",
 				"outputs": [
@@ -110,11 +128,11 @@
 	},
 	"sources": {
 		"SimpleStorage.sol": {
-			"keccak256": "0xf737154a3ad61ee7b30c928d478bf6565da427b7a21e5ba90562c32e66db0296",
+			"keccak256": "0xd19f092e12964d330a888ad70eca825b92ef927eb71de830285d87528a08bfff",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://f9680e7ed60e0caaf803481c7ed630cac4cb25acb9a7ffa5f5fc343359e410eb",
-				"dweb:/ipfs/QmPJvbkJmJWR1QWQuv3sV3k3sh5vfPEPG8KjXzQDFA6nhu"
+				"bzz-raw://8993bb0b312c322ba4431120c23a307a35f059dfcdd471392641ed92f291d0e6",
+				"dweb:/ipfs/QmUyJU8njeC6hYagGiwtx5Dfe8a7jH3jPSUokoa2BzqD5T"
 			]
 		}
 	},
