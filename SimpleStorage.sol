@@ -30,12 +30,7 @@ struct Person {
 //dynamic array
 Person[] public listofPeople;//[]
 
-
-
-
-
-
-
+mapping (string=> uint256) public nameToFavNumber;
 
 
 
@@ -57,10 +52,13 @@ function retrive2() public pure  returns(uint256){
 
 }
 
+// calldata, memory, storage
+
 
 
 function addPerson(string memory _name, uint256 _favnumber) public {
         listofPeople.push(Person(_favnumber, _name));
+        nameToFavNumber[_name] = _favnumber;
 }
 
 
