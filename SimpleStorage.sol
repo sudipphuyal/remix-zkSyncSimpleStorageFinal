@@ -12,7 +12,7 @@ contract SimpleStorage{
 
 // bytes ffds 
 
-//bytes32 
+//bytes32
 //uint256 favNumber;  //0
 
 
